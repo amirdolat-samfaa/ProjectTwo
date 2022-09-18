@@ -114,9 +114,9 @@ body{
 .btn-red{
     background-color: #FF5F5F;
     position: absolute;
-    bottom: 30px;
+    bottom: -45px;
     right: 50px;
-
+    width: 110px;
 }
 
 /* Main */
