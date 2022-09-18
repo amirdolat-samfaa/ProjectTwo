@@ -1,0 +1,302 @@
+@font-face {
+    font-family: "Vazir";
+    src: url(../fonts/Vazir.eot),
+        url(../fonts/Vazir.woff2) format("woff2"),
+        url(../fonts/Vazir.woff) format("woff"),
+        url(../fonts/Vazir.ttf) format("truetype");
+}
+
+::-webkit-scrollbar{
+    width: 6px;
+}
+
+::-webkit-scrollbar-track{
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #1FB5EB;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #555;
+}
+
+body{
+    font-family: "Vazir" !important;
+}
+
+.lh{
+    height: 0;
+}
+
+.sidebar{
+    width: 275px;
+    height: 100vh;
+    padding: 1rem;
+    position: fixed;
+    background-color: #F5F8FA;
+    transition: all 0.5s ease-out;
+    overflow-y: hidden;
+    z-index: 10;
+}
+
+.sidebar .profile{
+    border: none;
+}
+
+.sidebar:hover{
+    overflow-y: auto;
+}
+
+.sidebar.inactive{
+    margin-right: -275px !important;
+}
+
+.sidebar .sidebar-item .sidebar-link{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.sidebar .sidebar-item-inbox i{
+    color: #1FB5EB !important;
+}
+
+.sidebar .sidebar-item i{
+    color: #333333;
+}
+
+.sidebar .sidebar-item-inbox{
+    background-color: #fff;
+    position: relative;
+}
+
+.sidebar .side-blue{
+    width: 7px;
+    height: 55px;
+    background-color: #1FB5EB;
+    margin-right: -20px;
+    border-radius: 25px;
+    position: absolute;
+}
+
+.folder .sidebar-item-1 i{
+    color: #4664C7;
+}
+
+.folder .sidebar-item-2 i{
+    color: #FE9699;
+}
+
+.folder .sidebar-item-3 i{
+    color: #FED86F;
+}
+
+.bg-red{
+    background-color: rgb(255, 75, 75);
+    top:25px;
+    left:-30px
+}
+
+.bg-red-folder{
+    background-color: #1fb5eb42;
+    top: 22px;
+    left: -35px;
+    color: #000;
+}
+
+.btn-red{
+    background-color: #FF5F5F;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+
+}
+
+/* Main */
+.main .main-col4{
+    background-color: #FFFFF8 !important;
+}
+
+.main.active{
+    margin-right: 0;
+}
+
+@media(min-width: 992px){
+    .main{
+        margin-right: 275px;
+    }
+}
+
+@media(min-width: 1539px){
+    .left-o-right{
+        margin-right: 810px;
+        position: absolute;
+        top: 10px;
+    }
+}
+
+@media(min-width: 1539px){
+    .image-2{
+        margin-top: -125px;
+    }
+}
+
+@media(min-width:1539px) {
+    .main .images .image-4{
+        border: 1px solid #0000110d;
+        border-radius: 25px;
+        width: 205px;
+        height: 260px;
+        margin-top: -260px;
+        margin-right: 615px;
+    }
+}
+
+@media(min-width: 320px){
+    .main .ab-card {
+        position: absolute;
+        top: 50px;
+        height: 230px;
+        left: -10px;
+        /* width: 95%; */
+    }
+}
+
+.main .toggle-sidebar-icon{
+    color: #000;
+}
+
+.main .header .profile::after{
+    display: none !important;
+}
+
+.main .bi-list{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.main .form-control{
+    border: 1px solid #0000110d;
+    border-radius: 15px;
+}
+
+.main .hr{
+    display: none;
+}
+
+.main .time{
+    margin-right: 250px;
+}
+
+.main .card{
+    border: 1px solid #0000110d;
+    border-radius: 15px;
+}
+
+.main .info-mail{
+    position: relative;
+    background-color: #fff;
+    height: 100%;
+    width: 915px;
+}
+
+.main .images .image-1{
+    border: 1px solid #0000110d;
+    border-radius: 25px;
+    width: 255px;
+    height: 115px;
+}
+
+.main .images .image-2{
+    border: 1px solid #0000110d;
+    border-radius: 25px;
+    width: 255px;
+    height: 140px;
+}
+
+.main .images .image-3{
+    border: 1px solid #0000110d;
+    border-radius: 25px;
+    width: 325px;
+    height: 260px;
+}
+
+.main .images .image-4{
+    border: 1px solid #0000110d;
+    border-radius: 25px;
+    width: 205px;
+    height: 260px;
+    /* margin-top: -260px;
+    margin-right: 615px; */
+}
+
+.main .search-burger{
+    position: relative;
+}
+
+.main .burger{
+    position: absolute;
+    bottom: 0.5px;
+}
+
+.main .form-control{
+    width: 100%;
+}
+
+.main .mails{
+    position: relative;
+}
+
+.main .ab-card {
+    position: absolute;
+    top: 3px;
+    height: 230px;
+    /* width: 95%; */
+}
+
+.main .form-control{
+    height: 45px;
+}
+
+.main .img-search{
+    left: 15px;
+    position: absolute;
+    bottom: 5px;
+}
+
+.main .btn-glass{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 130px;
+}
+
+.main .type-text{
+    position: relative;
+}
+
+.main .attach-text{
+    position: absolute;
+    top: 12px;
+    right: 40PX;
+}
+
+.main .send-text{
+    position: absolute;
+    top: 13px;
+    right: 15px;
+    color: #1FB5EB;
+}
